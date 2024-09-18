@@ -1,3 +1,4 @@
 # ignore all .txt files
 *.swp
 *.txt
+*.DS_Store

@@ -1,24 +1,46 @@
 'use strict';
 console.log('-----------cardTransaction-----------')
 
+// Пример использования объекта и методов
+let currentBalance = 500;
+
 
 const cardTransaction = {
 
-    amount — сумма транзакции.
-    transactionType — тип транзакции (может быть purchase или refund).
-    transactionStatus — статус транзакции (может быть pending, completed или failed).
+    amount: 0,
+    transactionType: null,
+    transactionStatus: null,
 
-    updateTransaction(amount, type, status) — обновляет информацию о транзакции.
-    resetTransaction() — сбрасывает информацию о транзакции.
-    getTotal(balance) — возвращает новый баланс карты с учётом текущей транзакции.
-    displayTransaction() — выводит информацию о текущей транзакции.
+    updateTransaction: function(amount, type, status) {
+        currentBalance = currentBalance - amount;
+        this.transactionType = type;
+        this.transactionStatus = status;
+        
+        console.log(`Транзакция обновлена: purchase на сумму ${amount}, статус: ${status}`)
+    },
+
+    resetTransaction: function() {
+        this.amount = 0;
+        this.transactionType = null;
+        this.transactionStatus = null;
+    },
+    getTotal: function(balance){
+        return balance;
+    },
+
+    displayTransaction: function(){
+        if ((this.amount === 0) && (this.transactionStatus === null)){
+            console.log("Транзакция не была выполнена");
+        } else {
+            console.log(`Транзакция: purchase на сумму ${this.amount}, статус: ${this.transactionStatus}`);
+        }
+    },
 
 };
 
 
 
-// Пример использования объекта и методов
-let currentBalance = 500;
+
 
 // Обновление транзакции
 cardTransaction.updateTransaction(100, 'purchase', 'completed');

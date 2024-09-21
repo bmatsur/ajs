@@ -1,21 +1,26 @@
-'use strict';
-console.log('-----------address-----------')
+"use strict";
+console.log("-----------address-----------");
 
-
-const user = {
-    username: "Tsb Mushtari",
-    email: "tsb.mushtari@tsb.tj",
-    age: 25
+let user = {
+  username: "Tsb Mushtari",
+  email: "tsb.mushtari@tsb.tj",
+  age: 25,
 };
 
 const address = {
-    city: "Dushanbe",
-    state: "Tajikistan",
-    postalCode: "734000"
+  city: "Dushanbe",
+  state: "Tajikistan",
+  postalCode: "734000",
 };
 
+//using spread
+user = {
+  ...user,
+  ...address,
+};
 
 const userProfile = {};
 Object.assign(userProfile, user, address);
 
-console.log(userProfile);
+console.log("Object.assign:", userProfile);
+console.log("spread", user);

@@ -8,6 +8,6 @@ const course = {
   price: 600,
 };
 
-const info = Object.values(course);
+const info = Object.values(course); //Object.values return an array of values
 
 info.forEach((element) => console.log(element));

@@ -22,3 +22,6 @@ function createUser(name, age) {
 
 console.log(createUser("Alice", 30));
 // Ожидаемый вывод: { name: "Alice", age: 30 }
+
+const newUser2 = createUser("Ali", 22);
+console.log(newUser2);

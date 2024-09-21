@@ -2,7 +2,7 @@
 console.log("-----------countProperties-----------");
 
 const countProperties = (count) => {
-  return Object.keys(count).length;
+  return Object.keys(count).length; //Object.keys returns an array of keys
 };
 
 const user1 = { name: "Alice", age: 30, city: "New York" };

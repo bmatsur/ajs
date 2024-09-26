@@ -1,2 +1,3 @@
-'use strict';
-console.log('-----------8-----------')
+"use strict";
+console.log(" ");
+console.log("-----------8-----------");

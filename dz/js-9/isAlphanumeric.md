@@ -14,7 +14,8 @@
 ```javascript
 
 function containsOnlyLettersAndDigits(str) {
-    // Тут код должен быть
+    const regex = /^[a-zA-Z0-9]+$/;
+    return regex.test(str);
 }
 
 // Примеры строк

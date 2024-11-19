@@ -1,14 +1,10 @@
-import Card from './components/Card.jsx'
+import Student from "./components/Students.jsx";
 
 function App() {
 
   return(
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Student name="Spongebob" age={14} isStudent={true}/>
     </>
   );
 }

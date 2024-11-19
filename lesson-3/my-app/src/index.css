@@ -1,44 +1,4 @@
-.student {
-  font-family: Arial, sans-serif;
-  font-size: 2em;
-  padding: 10px;
-  border: 1px solid hsl(0, 0%, 50%, 0.8);
-}
-
-\.student p{}
-
-/* 
-// Card component
-.card {
-  border: 1px solid hsl(0, 0%, 80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.109);
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
-}
-
-.card .profile-Pic {
-  max-width: 60%;
-  height: auto;
-  border-radius: 60%;
-  margin-bottom: 10px;
-}
-
-.card .card-title{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  color: hsl(0, 0%, 20%);
-}
-.card .cart-text{
-  font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 30%);
-} */
-
-
-/* :root {
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -105,4 +65,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}

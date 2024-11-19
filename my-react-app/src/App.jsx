@@ -1,21 +1,16 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx";
-import Food
- from "./Food.jsx";
+import Card from './components/Card.jsx'
+
 function App() {
 
   return(
     <>
-      <Header />
-      <Food />
-      <Footer />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </>
-    
   );
 }
 
 export default App
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'

@@ -1,10 +1,10 @@
-import Student from "./components/Students.jsx";
-
+import Button2
+ from './components/Button2/Button2';
 function App() {
 
   return(
-    <>
-      <Student name="Spongebob" age={14} isStudent={true}/>
+    <>  
+    <Button2 />
     </>
   );
 }

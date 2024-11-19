@@ -1,3 +1,49 @@
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+/* 
+//UserGreeting
+.welcome-message {
+  font-size: 2.5em;
+  background-color: rgb(15, 97, 69);
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: rgb(104, 24, 92);
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 5px;
+} */
+
+/* 
+// Student
 .student {
   font-family: Arial, sans-serif;
   font-size: 2em;
@@ -5,7 +51,9 @@
   border: 1px solid hsl(0, 0%, 50%, 0.8);
 }
 
-\.student p{}
+.student p{
+  margin: 0;
+} */
 
 /* 
 // Card component

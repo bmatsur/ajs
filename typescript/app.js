@@ -1,4 +1,3 @@
-"use strict";
 // **************** fn
 // const getFullNameArrow = (firstName: string, surname:string): string => {
 //     return `${firstName} ${surname}`
@@ -30,6 +29,7 @@
 //     .reduce ((a,b) => a + b)
 //     console.log(result)
 // **************** Tuples
-const skills = [1, 'Dev'];
-const [id, skillName] = skills;
+var skills = [1, 'Dev'];
+var id = skills[0], skillName = skills[1];
 console.log(id);
+var arr = [1, 'sdf', true, true, false];

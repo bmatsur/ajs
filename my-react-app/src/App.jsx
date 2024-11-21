@@ -1,10 +1,10 @@
-import Button2
- from './components/Button2/Button2';
+import Counter from './components/MyHook/Counter';
+
 function App() {
 
   return(
-    <>  
-    <Button2 />
+    <>
+      <Counter />
     </>
   );
 }

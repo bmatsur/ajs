@@ -1,12 +1,14 @@
-import Counter from './components/MyHook/Counter';
+import ColorPicker from './components/MyHook/ColorPicker'
+
 
 function App() {
 
   return(
     <>
-      <Counter />
+      <ColorPicker />
     </>
   );
-}
+};
+
 
 export default App

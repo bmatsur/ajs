@@ -1,11 +1,10 @@
-import ColorPicker from './components/MyHook/ColorPicker'
-
+import UpdaterFn from './components/MyHook/UpdaterFn';
 
 function App() {
 
   return(
     <>
-      <ColorPicker />
+      <UpdaterFn />
     </>
   );
 };

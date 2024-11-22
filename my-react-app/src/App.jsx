@@ -1,10 +1,10 @@
-import UpdaterFn from './components/MyHook/UpdaterFn';
+import ArrayOfObjectsStateUpd from "./components/MyHook/ArrayOfObjectsStateUpd";
 
 function App() {
 
   return(
     <>
-      <UpdaterFn />
+      <ArrayOfObjectsStateUpd />
     </>
   );
 };

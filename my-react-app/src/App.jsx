@@ -1,10 +1,10 @@
-import ArrayOfObjectsStateUpd from "./components/MyHook/ArrayOfObjectsStateUpd";
+import ToDoList from "./components/ToDoList";
 
 function App() {
 
   return(
     <>
-      <ArrayOfObjectsStateUpd />
+      <ToDoList />
     </>
   );
 };

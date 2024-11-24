@@ -1,10 +1,10 @@
-import WidthHeight from "./components/MyHook/useEffect/WidthHeight";
+import DigitalClock from "./components/MyHook/useEffect/DigitalClock";
 
 function App() {
 
   return(
     <>
-      <WidthHeight />
+      < DigitalClock />
     </>
   );
 };

@@ -1,10 +1,10 @@
-import ToDoList from "./components/ToDoList";
+import WidthHeight from "./components/MyHook/useEffect/WidthHeight";
 
 function App() {
 
   return(
     <>
-      <ToDoList />
+      <WidthHeight />
     </>
   );
 };

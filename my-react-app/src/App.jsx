@@ -1,10 +1,11 @@
-import DigitalClock from "./components/MyHook/useEffect/DigitalClock";
+import ComponentA from './components/MyHook/ComponentA';
 
 function App() {
 
   return(
     <>
-      < DigitalClock />
+      < ComponentA />
+
     </>
   );
 };

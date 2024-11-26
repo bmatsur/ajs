@@ -1,10 +1,10 @@
-import ComponentA from './components/MyHook/ComponentA';
+import Stopwatch from './components/MyHook/useRef/Stopwatch';
 
 function App() {
 
   return(
     <>
-      < ComponentA />
+      <Stopwatch  />
 
     </>
   );

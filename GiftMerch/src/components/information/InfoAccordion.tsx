@@ -63,12 +63,12 @@ const Accordion = (props: AccordionProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="p-4 bg-gray-200 rounded-lg mb-4 max-w-4xl mx-auto">
+    <div className="p-4  rounded-lg mb-4 max-w-4xl mx-auto">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between w-full items-center text-base md:text-lg lg:text-xl"
       >
-        <span className="truncate">{props.title}</span>
+        <span className="truncate font-bold text-2xl">{props.title}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

@@ -1,5 +1,6 @@
-import FAQ from "./components/information/Info"
-// import Accordion from "./components/accordion/Accordion"
+// import FAQ from "./components/information/Info"
+import { ThemeContextProvider } from "./components/context/ThemeContext"
+import Box from "./components/context/Box"
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
   return (
     <div >
       <div >
-        <FAQ />
+        <ThemeContextProvider>
+          <Box />
+        </ThemeContextProvider>
       </div>
     </div>
 

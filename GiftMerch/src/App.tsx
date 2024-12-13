@@ -1,10 +1,10 @@
-import CounterClass from "./components/class/CounterClass"
-
+import { Private } from "./components/auth/Private"
+import { Profile } from "./components/auth/Profile"
 function App() {
 
   return (
     <div >
-      <CounterClass message='the count value is: '/>
+      <Private isLoggedIn={true} component={Profile} />
     </div>
   )
 }

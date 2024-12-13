@@ -1,10 +1,10 @@
-import { MutableRef } from "./components/ref/MutableRef"
+import CounterClass from "./components/class/CounterClass"
 
 function App() {
 
   return (
     <div >
-      <MutableRef />
+      <CounterClass message='the count value is: '/>
     </div>
   )
 }
